@@ -1,0 +1,53 @@
+{
+  "db": {
+    "development": {
+      "username": "root",
+      "password": "",
+      "host": "localhost",
+      "port": 3306,
+      "database": "parking_main"
+    },
+    "testing": {
+      "username": "",
+      "password": "",
+      "host": "",
+      "port": 2701,
+      "database": ""
+    },
+    "staging": {
+      "username": "",
+      "password": "",
+      "host": "",
+      "port": 2701,
+      "database": ""
+    },
+    "production": {
+      "username": "locopixel@knpmysql",
+      "password": "",
+      "host": "localhost",
+      "port": 3306,
+      "database": "parking_main"
+    }
+  },
+  "rabbitMQ": {
+    "connection": {
+      "development": "",
+      "staging": "",
+      "production": ""
+    },
+    "exchange": "",
+    "queue": "",
+    "binding_keys": []
+  },
+  "FORCE_DB_SYNC": "false",
+  "jwtOptions": {
+    "secretOrKey": "boilerplate",
+    "ignoreExpiration": true,
+    "passReqToCallback": true
+  },
+  "awsConfig": {
+    "accessKeyId": "",
+    "secretAccessKey": "",
+    "region": ""
+  }
+}
